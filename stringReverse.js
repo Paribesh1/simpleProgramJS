@@ -1,11 +1,6 @@
-function reverseString(str){
-    var splitString=str.split("");
-
-    var reverseArray=splitString.reverse();
-
-    var joinArray=reverseArray.join("");
-
-    return joinArray;
+function palindrome(str){
+ var reversed = str.split("").reverse().join("");
+  console.log(reversed);
 }
 
-console.log(reverseString("hello"));
+palindrome("hello");
